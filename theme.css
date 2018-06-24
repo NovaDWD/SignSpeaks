@@ -1,0 +1,121 @@
+html{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  margin:0px;
+  padding:0px;
+}
+
+.landingpage{
+  width: 100vw;
+  height:100vh;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background: url("http://i64.tinypic.com/vcylaq.png") ;
+  background-size: cover;
+  margin:auto;
+}
+
+nav{
+float:right;
+margin-top: 25px;
+}
+
+.hand{
+  margin-left: 15vw;
+  margin-top: 30vh;
+  position: relative;
+  animation: wavingArm 8s ;
+}
+
+@keyframes wavingArm {
+	0% {
+		transform: rotate(0deg) translate(0px);
+    opacity: 0;
+	}
+  10%{
+    opacity: 1;
+  }
+	50% {
+		transform: rotate(-30deg) translate(0px);
+	}
+	100% {
+		transform: rotate(0deg) translate(0px);
+	}
+}
+
+#button{
+  width:150px;
+  height:44px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #F16B6F;
+  opacity: 0.5;
+}
+
+#button:hover{
+  opacity: 1;
+  width: 155px;
+}
+
+.cta1{
+  margin-left: 28vh;
+  margin-top: 90vh;
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  background-color:#F16B6F;
+}
+
+.cta1 a{
+  text-decoration: none;
+  color: #fff;
+  font-size:20px;
+}
+
+.about{
+  width: 100vw;
+  height:100vh;
+  background-color: #45d9fd;
+  text-align: center;
+  position: relative;
+  margin-top: 0px;
+}
+
+h2{
+  position: relative;
+  font-size: 50px;
+  top:5vh;
+}
+
+.line{
+  border-left: 6px solid #D8E6E7;
+  height: 80vh;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 15vh;
+}
+
+.vision_txt{
+  width:520px;
+  font-size: 25px;
+  line-height: 40px;
+  margin-left: 10vw;
+  margin-top:10vh;
+  position: relative;
+}
+
+.video{
+  height: 500px;
+  width: 700px;
+  background-color: #000;
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  margin-top: -50vh;
+}
